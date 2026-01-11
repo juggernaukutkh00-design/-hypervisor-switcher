@@ -27,4 +27,3 @@ Detecta máquinas virtuales activas y gestiona los módulos del kernel para evit
 ```bash
 python3 app.py
 
->>>>>>> 029da5d (Initial project files)
