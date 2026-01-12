@@ -1,6 +1,6 @@
 # Hypervisor Switcher
 
-IMPORTANTE en si tiene un problama cojonudo en si la accion de cmabiar del hypervisor te da un erro que lo registra /var/log/syslog y registra cada accion en si y se va acmulando todo hasta petar el sistema hasta que busque una solucion mir ecomendacion es que cada cierto tiempo es ejecutar este comando en si es esta : sudo truncate -s 0 /var/log/syslog esto es lo que hacia es vaciarlo en si nada mas 
+IMPORTANTE en si tiene un problama cojonudo en si la accion de cambiar del hypervisor te da un error ( que tu no ves)  que lo registra /var/log/syslog y registra cada accion en si y se va acmulando todo hasta petar el sistema hasta que busque una solucion mi recomendacion es que cada cierto tiempo es ejecutar este comando en si es esta : "sudo truncate -s 0 /var/log/syslog" esto es lo que hacia es vaciarlo en si nada mas 
 
 ---
 Herramienta gráfica para Linux que permite alternar entre **KVM** y **VirtualBox** de forma segura, detectando máquinas activas y gestionando los módulos del kernel para evitar conflictos de virtualización.
